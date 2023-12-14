@@ -1,0 +1,81 @@
+/* style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+nav {
+    background-color: #0466cf;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+nav h1 {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li a{
+    color: white;
+}
+ul li a:hover{
+    color: rgb(153, 153, 153);
+}
+
+
+#adicionar-nav {
+    text-align: center;
+}
+
+#adicionar {
+    display: inline-block;
+    padding: 0px;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    table-layout: fixed; /* Faz com que a largura da tabela seja fixa */
+}
+
+table th, td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+    word-wrap: break-word; /* Permite que o conteúdo quebre para próxima linha se necessário */
+}
+
+table th {
+    background-color: #6b7886;
+    color: white;
+}
+
+
+table a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
